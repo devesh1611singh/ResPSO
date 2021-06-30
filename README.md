@@ -1,7 +1,7 @@
 # ResPSO
 
 Forward passes through residual blocks are found to be equivalent to gradient descent steps. This leads to questions about more efficient residual blocks. 
-This project explores the idea of modifying residual networks using the particle swarm optimization (PSO) algorithm. The ResPSO model architecture is introduced to achieve this.  This project tries to understand the effect of introducing PSO algorithms into residual blocks.
+This project explores the idea of modifying residual networks using the particle swarm optimization (PSO) algorithm. The ResPSO model architecture is introduced to achieve this.  
 
 Different experiments like clustering and muting model compoonents, were designed as introspection techniques to examine the learning behaviour of the ResPSO model. As swarm’s particles
 are modeled to be equivalent to feature maps, clustering these particles allowed exploration of PSO’s effectiveness in adding information to the residual block. Muting model components while training, helped in understanding the interaction between
